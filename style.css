@@ -1,0 +1,95 @@
+/* google font import */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+/* font-family: 'Orbitron', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: f7f7f8;
+  display: grid;
+  place-items: center;
+  margin-top: 150px;
+}
+#heading {
+  font-family: "Orbitron", sans-serif;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  color: black;
+}
+
+#screen {
+  font-family: "Orbitron", sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  color: blueviolet;
+}
+
+.buttonDiv {
+  margin-top: 40px;
+  margin-left: 38px;
+}
+
+.btn {
+  margin-right: 35px;
+  font-family: "Orbitron", sans-serif;
+  /* padding: 8px; */
+  font-size: 15px;
+}
+
+.increase,
+.reset,
+.disncrease {
+  display: inline-block;
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 7px 14px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.increase:hover,
+.reset:hover,
+.disncrease:hover {
+  transform: scale(0.9);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.increase:hover {
+  background-color: green;
+}
+.reset:hover {
+  background-color: blueviolet;
+}
+.disncrease:hover {
+  background-color: red;
+}
+
+.increase:active,
+.reset:active,
+.disncrease:active {
+  transform: translateY(1px);
+}
+
+.increase {
+  border: 2px solid green;
+}
+.reset {
+  border: 2px solid blueviolet;
+}
+.disncrease {
+  border: 2px solid red;
+}
