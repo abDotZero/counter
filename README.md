@@ -1,4 +1,4 @@
-#Get This View Website Following or Clicking This Link;
+# Get This View Website Following or Clicking This Link
  https://abdotzero.github.io/counter/
 
 # counter
